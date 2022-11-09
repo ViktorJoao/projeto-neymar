@@ -4,3 +4,44 @@
     margin: 0px;
     padding: 0px;
 }
+main{
+    background: black url('../imagens/junior.jpg') no-repeat;
+    background-position: top center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+menu > ul{
+    list-style-type: none;
+    
+}
+menu > ul > li{
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#vermelho{
+    background-color: red;
+    padding: 4px;
+    border-radius: 5px;
+}
+#vermelho:hover{
+    background-color: white;
+    color: black;
+}
+#conteudo-principal{
+    position: absolute;
+    color: white;
+    font-variant: small-caps;
+    left: 35%;
+    top: 50%;
+    transform:translate(-70%, -60%) ;
+}
+#conteudo-principal > h1{
+    font-size: 4em;
+}
