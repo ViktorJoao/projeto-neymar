@@ -1,41 +1,76 @@
 @charset "UTF-8";
 
-@media screen and (min-width:550px) and (max-width:768px) {
-    a{
+@media screen and (min-width:549px) and (max-width:768px) {
+    menu > ul > li{
         font-size: 1.1em;
+    }
+    #conteudo-principal > h1{
+        font-size: 3.4em;
+    }
+    #conteudo-principal > h2{
+        font-size: 2em;
+    }
+    .botao{
+        padding: 7px;
+    width: 115px;
+    margin-top: 15px;
     }
 }
 @media screen and (min-width:769px) and (max-width:1024px) {
-    a{
+    menu > ul > li{
         font-size: 1.2em;
     }
-    main{
-        background-position: bottom center;
-        background-size: contain;
-        
+    #conteudo-principal > h1{
+        font-size: 3.8em;
+    }
+    #conteudo-principal > h2{
+        font-size: 2.2em;
+    }
+    #conteudo-principal{
+        width: 500px;
+    }
+    .botao{
+        padding: 9px;
+    width: 120px;
+    margin-top: 18px;
     }
 }
-@media screen  and (min-width:1025px) and (max-width:1200px) {
-    a{
+@media screen and (min-width:1025px) and (max-width:1200px) {
+    menu > ul > li{
         font-size: 1.3em;
     }
-    main{
-        background-position: bottom center;
-        background-size: contain;
-        
+    #conteudo-principal > h1{
+        font-size: 4em;
+    }
+    #conteudo-principal > h2{
+        font-size: 2.6em;
+    }
+    #conteudo-principal{
+        width: 550px;
+    }
+    .botao{
+        padding: 9px;
+    width: 125px;
+    margin-top: 20px;
     }
 }
+
 @media screen and (min-width:1201px) {
-    a{
+    menu > ul > li{
         font-size: 1.4em;
     }
-    main{
-        background-position: top right;
-        background-size: cover;
-        
-    }
     #conteudo-principal > h1{
-        font-size: 7em;
+        font-size: 4.5em;
     }
-
+    #conteudo-principal > h2{
+        font-size: 3em;
+    }
+    #conteudo-principal{
+        width: 600px;
+    }
+    .botao{
+        padding: 10px;
+    width: 130px;
+    margin-top: 25px;
+    }
 }

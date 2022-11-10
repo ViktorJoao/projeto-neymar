@@ -5,8 +5,8 @@
     padding: 0px;
 }
 main{
-    background: black url('../imagens/junior.jpg') no-repeat;
-    background-position: top center;
+    background: black url('../imagens/pexels-emiliano-arano-1350197.jpg') no-repeat;
+    background-position: bottom center;
     background-size: cover;
     width: 100vw;
     height: 100vh;
@@ -20,6 +20,8 @@ menu > ul > li{
     display: inline-block;
     margin: 10px;
     text-decoration: none;
+    font-size: .8em;
+    font-variant: small-caps;
 }
 a{
     text-decoration: none;
@@ -38,10 +40,33 @@ a{
     position: absolute;
     color: white;
     font-variant: small-caps;
-    left: 20%;
+    left: 50%;
     top: 50%;
-    transform:translate(-70%, -60%) ;
+    transform:translate(-50%, -50%) ;
+    width: 400px;
+    
 }
 #conteudo-principal > h1{
-    font-size: 4em;
+    font-size: 3em;
+    text-align: center;
+    text-shadow: 1px 1px 4px black;
+}
+#conteudo-principal > h2{
+    padding-top: 10px;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.329);
+}
+.botao{
+    display: block;
+    margin: auto;
+    padding: 5px;
+    width: 100px;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.123);
+    border: .5px solid rgba(255, 255, 255, 0.274);
+    color: white;
+    border-radius: 5px;
+}
+.botao:hover{
+    background-color: red;
 }
