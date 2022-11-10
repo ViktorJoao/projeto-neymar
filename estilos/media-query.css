@@ -73,4 +73,8 @@
     width: 130px;
     margin-top: 25px;
     }
+    footer > p{
+        width: 500px;
+        margin: auto;
+    }
 }
