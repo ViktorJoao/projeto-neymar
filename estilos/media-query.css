@@ -1,5 +1,17 @@
 @charset "UTF-8";
 
+@media screen and (min-width:768px) {
+    span#burguer{
+        display: none;
+    }
+    menu{
+        display: block;
+    }
+    menu{
+        text-align: left;
+    }
+}
+
 @media screen and (min-width:549px) and (max-width:768px) {
     menu > ul > li{
         font-size: 1.1em;
